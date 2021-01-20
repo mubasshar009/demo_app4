@@ -8,7 +8,7 @@ function Hello ({name,age}) {
             <p class = "para">My name is {name} and My Age is {age + 14} This is my 
             first react Practice
             I am Also PIAIC AI Batch3 Q3 Student
-            Hello From Surge
+        
             </p>
 
 
