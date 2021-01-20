@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Hello from './Hello';
 import reportWebVitals from './reportWebVitals';
+import './Hello.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App />,
+    <Hello name = "Mubashar Hassan" age = {12}/>,
   </React.StrictMode>,
   document.getElementById('root')
 );
